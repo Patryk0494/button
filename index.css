@@ -1,0 +1,30 @@
+.background {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( 130deg,  #bce27f, #add8e6 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    color: #add8e6;
+    background-color: #333333;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.background--darkMode {
+    background: linear-gradient( 130deg, #333333, #2a3f08 );
+}
+
+.button--darkMode {
+    color: #000000;
+    background-color: #add8e6;
+}
